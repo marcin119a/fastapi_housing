@@ -29,3 +29,8 @@ class OfferCreate(BaseModel):
     locality: str
     rooms: int
     area_m2: float
+
+
+class PricePrediction(BaseModel):
+    area_m2: float
+    rooms: int
